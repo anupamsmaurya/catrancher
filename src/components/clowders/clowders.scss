@@ -1,0 +1,18 @@
+.clowders {
+    display: flex;
+    flex-direction: column;
+    min-width: 25%;  
+    text-align: center;
+    .clowder-row {
+        display: flex;
+        & > div {
+            min-width: 33.3%;
+            min-height: 8rem;
+            border: 1px dotted lightskyblue;
+            text-align: center;
+            img {
+                width: 4rem;
+            }
+        }
+    }
+}
