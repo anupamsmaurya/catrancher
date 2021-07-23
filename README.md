@@ -6,9 +6,13 @@ The app separates the cats into groups of 3
 cats (a clowder) that get along. In order to avoid cat fights in the clowder, each cat in the group
 must either be the same or different from every cat in the group for each attribute.
 
-## Available Scripts
+## Steps to run
 
 In the project directory, you can run:
+
+### `yarn install`
+
+This will install the dependencies.
 
 ### `yarn start`
 
